@@ -1,0 +1,90 @@
+
+/*
+    Copy from styles.css -> .au-btn-submit
+    Rename as .security-btn
+    Change border to 10px
+*/
+.security-btn {
+    position:relative;
+    right:0;
+    min-width:95px;
+    color:#fff;
+    border:10px solid #205b8d;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:43px;
+    background:#205b8d
+}
+
+/*
+    Copy from styles.css -> .form-header
+    Rename as .login-status-header
+*/
+.login-status-header{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex
+}
+
+/*
+    Copy from styles.css -> .au-input
+    Rename as .login-status-user-info
+    - remove 'solid', 'font-size', 'color'
+*/
+.login-status-user-info {
+    line-height:43px;
+    border:1px;
+    padding:0 17px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    -webkit-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    transition:all .5s ease
+}
+
+/* Style the dropdown button */
+#dropdownMenuButton {
+    width: 200px; /* Change width */
+    background-color: #205b8d; /* Change background color */
+    color: white; /* Change font color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Adjust font size */
+    text-align: center; /* Center align text */
+    padding: 10px; /* Adjust padding */
+    border: none; /* Remove border */
+  }
+  
+#dropdownMenuButton:hover {
+background-color: #174d72; /* Darker shade on hover */
+}
+  
+/* Style the dropdown menu */
+.dropdown-menu {
+background-color: #205b8d; /* Background color */
+color: white; /* Font color */
+width: 100px; /* Set menu width */
+border: 1px solid #174d72; /* Border for the menu */
+border-radius: 5px; /* Rounded corners */
+padding: 5px 0; /* Adjust menu padding */
+cursor: pointer;
+}
+  
+/* Style individual menu items */
+.dropdown-item {
+color: white; /* Font color */
+padding: 7px; /* Padding inside menu items */
+font-size: 14px; /* Adjust font size */
+text-align: center;
+cursor: pointer;
+}
+
+/* Change color of menu items on hover */
+.dropdown-item:hover {
+background-color: #174d72; /* Darker background on hover */
+color: white; /* Ensure font color remains white */
+}
+  
